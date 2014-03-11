@@ -50,4 +50,4 @@ if __name__ == "__main__":
     torment=int(sys.argv[1])
     runs=int(sys.argv[2])
   pdrop=calculate(torment,runs)
-  print('pdrop for a given organ=' + str(pdrop) + ', pdrop for all three is=' + str(pdrop/3.0))
+  print('pdrop for a given organ=' + str(pdrop) + ', pdrop for all three is=' + str(pow(pdrop,3.0)))
