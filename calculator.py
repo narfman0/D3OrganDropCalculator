@@ -2,7 +2,7 @@
 import sys
 from math import pow
 
-DEFAULT_TORMENT = 3
+DEFAULT_TORMENT = 2
 DEFAULT_RUNS = 5
 
 #generate pascals triangle
